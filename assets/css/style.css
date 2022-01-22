@@ -1,0 +1,14 @@
+/* Generic Styles */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+  }
+  
+   body {
+    background: url("../img/three.jpg");
+    background-size: cover;
+    font-family: Libre Franklin,Arial,Helvetica,sans-serif;
+    color: #777777;
+    
+  }
