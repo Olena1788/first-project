@@ -121,6 +121,33 @@ footer > p {
   line-height: 75px;
 }
 
+/*Sign Up page*/
+.block {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+fieldset {
+  text-align: center;
+  letter-spacing: 2px; 
+}
+
+input:focus {
+  background-color: rgba(135, 222, 228, 0.945); 
+  outline: none;
+}
+
+form {
+  width: 400px;
+  height: 430px;
+  padding-top: 50px;
+  margin: 25px auto;
+  background-color: rgba(171, 222, 231, 0.527);
+  }
+
+ 
+
 
 
 
