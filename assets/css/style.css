@@ -144,6 +144,17 @@ form {
   padding-top: 50px;
   margin: 25px auto;
   background-color: rgba(171, 222, 231, 0.527);
+}
+
+  button[type=submit] {
+    color: black;
+    padding: 10px;
+    background-color: rgba(135, 222, 228, 0.945);
+  }
+
+  label {
+    margin: 10px 15px 5px 0;
+    font-size: small;
   }
 
  
