@@ -108,4 +108,19 @@ footer > p {
   padding-bottom: 5px;
 }
 
+/*Galley page*/
+
+#secondary {
+  float: left;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  padding-top: 10px;
+}
+
+#secondary, #menu {
+  line-height: 75px;
+}
+
+
+
 
