@@ -80,4 +80,32 @@ h3 {
   letter-spacing: 2px;
 }
 
+#map {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+  padding: 10px;  
+}
+
+.links {
+  text-align: center;
+  padding: 5px;
+}
+
+.links i {
+  font-size: 150%;
+  margin: 1%;
+  color: #777777;
+}
+
+footer > p {
+  text-align: center;
+  font-size: small;
+  letter-spacing: 2px;
+  padding-top: 10px; 
+  padding-bottom: 5px;
+}
+
 
