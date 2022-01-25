@@ -109,7 +109,7 @@ li {
 }
 
 .address {
-  padding: 200px 125px 20px;
+  padding: 150px 65px 20px;
 }
 
 h3 {
@@ -119,12 +119,17 @@ h3 {
 
 #map {
   text-align: center;
+  padding-bottom: 20px;
 }
 
-.social {
+h4 {
   text-align: center;
-  padding: 10px;  
+  padding-top: 5px;
+  font-size: medium;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
+
 
 .links {
   text-align: center;
@@ -135,6 +140,8 @@ h3 {
   font-size: 150%;
   margin: 1%;
   color: #777777;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 footer > p {
@@ -143,6 +150,10 @@ footer > p {
   letter-spacing: 2px;
   padding-top: 10px; 
   padding-bottom: 5px;
+}
+
+footer {
+  background-color: rgba(171, 222, 231, 0.527);
 }
 
 /*Galley page*/
