@@ -83,13 +83,29 @@ text-align: center;
   font-weight: bolder;
 }
 
+ul {
+  list-style-type: none;
+  text-align: center;
+} 
 
+li {
+
+}
 .contact {
   text-align: center;
 }
 
 #contact-details {
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.contact {
+  text-align: center;
 }
 
 .address {
