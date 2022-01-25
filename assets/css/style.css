@@ -61,18 +61,28 @@ h2 {
   font-weight: 520;
 }
 
-h2 {
+#text-about {
   text-align: center;
   font-size: 1.1rem; 
   letter-spacing: 2px;
-  padding-top: 120px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
 }
 
-#reasons {
-list-style-type: none;
+#text-center {
 text-align: center;
-font-size: 1.1rem;
 }
+
+#reasons-to-join {
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
 
 .contact {
   text-align: center;
