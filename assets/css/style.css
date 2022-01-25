@@ -168,10 +168,19 @@ footer {
   letter-spacing: 2px;
   font-size: 1.1rem;
   padding-top: 10px;
+  padding-left: 15px;
 }
 
 #secondary, #menu {
   line-height: 75px;
+}
+
+#works {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 700;
 }
 
 /*Sign Up page*/
