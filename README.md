@@ -106,7 +106,10 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
-# Love Running
+# Bangor Garden Club
+
+Bangor Garden Club is a site that aims to promote environmental causes and motivate people to learn from experienced gardeners as well as pass along own knowledge and know-how to new generations of gardeners. The site will be targeted towards people who love gardening and look for a way to socialise.
+Bangor Garden Club will be useful for gardeners who want to join the club to participate in projects, share their ideas and knowledge with others.
 
 In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
