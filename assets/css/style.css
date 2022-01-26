@@ -153,7 +153,7 @@ footer > p {
   text-align: center;
   font-size: small;
   letter-spacing: 2px;
-  padding-top: 10px; 
+  padding-top: 5px; 
   padding-bottom: 5px;
 }
 
@@ -194,6 +194,7 @@ footer {
 
 #center {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 fieldset {
@@ -205,6 +206,11 @@ fieldset {
 input:focus {
   background-color: rgba(135, 222, 228, 0.945); 
   outline: none;
+}
+
+#signup-form {
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 form {
