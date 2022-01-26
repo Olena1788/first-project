@@ -51,13 +51,14 @@ h2 {
 }
 
 #cover-text {
-  width: 590px;
-  height: 360px;
-  background-color: rgba(171, 222, 231, 0.527);
+  width: 780px;
+  height: 460px;
+  background-color: rgba(171, 222, 231, 0.849);
   margin-left: auto;
   margin-right: auto;
   font-size: 17px;
   font-weight: 520;
+  padding: 50px;
 }
 
 #text-about {
@@ -99,8 +100,8 @@ font-size: 1.2rem;
 }
 
 #contact-details {
-  padding-top: 40px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   text-align: center;
   font-size: 1.1rem;
   letter-spacing: 2px;
@@ -113,7 +114,7 @@ font-size: 1.2rem;
 }
 
 .address {
-  padding: 150px 75px 20px;
+  padding: 40px 100px 20px;
   font-size: 1.1rem;
 }
 
@@ -125,6 +126,7 @@ h3 {
 #map {
   text-align: center;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 h4 {
@@ -158,7 +160,7 @@ footer > p {
 }
 
 footer {
-  background-color: rgba(171, 222, 231, 0.527);
+  background-color: rgba(171, 222, 231, 0.849);
 }
 
 /*Menu and logo for galley and signup pages*/
