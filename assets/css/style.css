@@ -20,7 +20,7 @@
     padding-top: 20px;
     padding-right: 20px;
     font-family: Libre Franklin,Arial,Helvetica,sans-serif; 
-    font-weight: 600;
+    font-weight: 500;
     }
 
 #menu a {
@@ -176,6 +176,7 @@ footer {
   padding-top: 20px;
   padding-left: 20px;
   font-family: Libre Franklin,Arial,Helvetica,sans-serif;
+  
 }
 
 #secondary, #menu {
@@ -189,7 +190,9 @@ footer {
   padding-bottom: 20px;
   letter-spacing: 2px;
   text-align: center;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  font-family: Libre Franklin,Arial,Helvetica,sans-serif;
 }
 
 .gallery .row {
@@ -205,6 +208,7 @@ footer {
 
 
 /*Sign Up page*/
+
 .block {
   display: block;
   padding: 10px;
