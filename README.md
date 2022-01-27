@@ -1,10 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Olena1788,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
 
@@ -109,13 +103,161 @@ Happy coding!
 # Bangor Garden Club
 
 Bangor Garden Club is a site that aims to promote environmental causes and motivate people to learn from experienced gardeners as well as pass along own knowledge and know-how to new generations of gardeners. The site will be targeted towards people who love gardening and look for a way to socialise.
-Bangor Garden Club will be useful for gardeners who want to join the club to participate in projects, share their ideas and knowledge with others.
+Bangor Garden Club will be useful for gardeners who want to find join the club to participate in projects, share their ideas and knowledge with others.
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+# User Stories
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+**Client Goals**
+- To be able to view the site on a range of device sizes.
+- To make it easy for potential members to find out what the garden club is and how to join it.
+- To allow people to be able to contact the garden club to ask further questions.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+**First Time Visitor Goals**
+- I want to find out what Bangor Garden Club is and how I can join it.
+- I want to be able to navigate the site easily to find information.
+- I want to be able to find their social media profiles.
+
+**Returning Visitor Goals**
+- I want to find information on what the  current projects are and what educational programs are available .
+- I want to be able to see the dates for upcomming meetings of the club members.
+
+**Frequent Visitor Goals**
+I want to be able to give and ask advice on plants care.
+
+# Design 
+## Color scheme?????
+
+## Typography
+Font-family " Libre Franklin, Arial, Helvetica" was used throughout the website.
+
+## Imagery
+The images were used from https://unsplash.com/. 
+
+## Wireframes
+Wireframes were created for mobile, tablet and desktop.
+
+Home Page Wireframe
+
+Gallery Page Wireframe
+
+Signup Page Wireframe
+
+## Features
+The website is comprised of three pages, which are accessible from the navigation menu (home page, gallery page and signup page).
+
+**All Pages on the website have:**
+
+- A responsive navigation bar at the top right corner which allows the user to navigate through the site also the same image of flowers is used as a background  to maintain consistency throughout the site.
+
+- A footer which contains social media icon links to facebook, instagram and twitter. Icons were used to keep the footer clean and they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
+
+**Home Page**
+
+Club's logo is in the center to draw users' attention. Section containing information about the club with its contact details, address and open times appears when the page is scrolled down.
+Map section goes below section with clubs' information. It shows the users the location of the club.
+
+**Gallery page**
+
+Gallery will provide the user with supporting images to see what the club does and its members' accomplishments.
+
+**Signup page**
+
+This page will allow the user to get signed up to the club by submitting their full name and email address.
+
+**Features left to implement**
+- Separate page to be added which will comprise of blocks of information about ecology meetings and programs to engage cildren and teens.
+- Separate page for the members to view club members' events and blogs.
+- Exchange/Giveaway page - This page would enable club's members to see the information about plants exchange and giveaways events that take place in garden club. 
+
+## Accessibility
+The site is accessible friendly due to the use of descriptive alt attributes on images, information for screen readers where there are footer icons used and no text, ensuring that there is a sufficient colour contrast throughout the site and menus are accessible by marking the current page as current for screen readers.
+
+# Technologies Used
+
+The following technologies were used to create and test the website:
+- HTML - HyperText Markup Language to create the structure of the website content.
+- CSS - Cascading Style Sheet Language to provide style to the website.
+- Balsamiq to create wireframes.
+- TinyPNG - to compress images.
+- Gitpod - to create cloud based Integrated Developement Environment.
+- GitHub - to provide software development to store files.
+- Git - to do version control system.
+- Google Dev Tools - To troubleshoot and test features, resolve issues with responsiveness and styling.
+- Favicon.io - to create Favicon.
+- Font Awesome - For the iconography on the website.
+- Am I Responsive? - to show the website landing page responsiveness on different devices.
+- README Markdownguide - to use tips for creation of README.md
+- CSS Jigsaw - to validate CSS code.
+- HTML Vallidator - to validate HTML code.
+- LiveBrowserStack - to check the compatability of website.
+- Freeformatter - to validate HTML code.
+
+
+# Deployment & Local Development
+## Deployment
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+## Local Development
+**How to Fork**
+To fork the .... repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, .....
+3. Click the Fork button in the top right corner.
+
+**How to Clone**
+To clone the ..... repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Testing
+
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
+The following issues were raised ......
+
+# W3C Validator
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+# Jigsaw W3 Validator
+Jigsaw W3 Validator was used to validate CSS code.
+
+- Home Page HTML
+- Gallery Page HTML
+- Signup Page HTML
+
+# Solved Bugs
+
+# Known Bugs
+
+
+
+
+
+
+
+
+
+
+
+
+# A
+## A
+### A
+**A**
+
+
 
 ## Features 
 
@@ -130,9 +272,9 @@ In this section, you should go over the different parts of your project, and des
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- __The landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - The landing includes an image of flowers as a background with text overlay to allow the user to see the information about the club. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
