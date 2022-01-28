@@ -9,7 +9,7 @@
     background: url("../img/three.jpg");
     background-size: cover;
     font-family: Libre Franklin,Arial,Helvetica,sans-serif;
-    color: #404040;  
+    color: #356c8b;  
   }
   /*---- Nav menu for home, gallery and signup pages----*/
   #menu {
@@ -42,22 +42,22 @@ h1 {
   text-align: center;
   font-size: x-large;
   text-transform: uppercase;
-  padding-top: 20% ; 
+  padding-top: 10% ; 
   letter-spacing: 2px;
 }
 
 h2 {
  font-size: large;
  padding-top: 20px;
- padding-bottom: 25%;
+ padding-bottom: 20px;
  font-weight: 400;
  text-align: center;
 }
 
 #cover-text {
-  width: 780px;
+  width: 760px;
   height: 660px;
-  background-color: rgba(171, 222, 231, 0.849);
+  background-color: rgba(171, 222, 231, 0.568);
   margin-left: auto;
   margin-right: auto;
   font-size: 17px;
@@ -98,9 +98,6 @@ ul {
 li {
 font-size: 1.2rem;
 
-}
-.contact {
-  text-align: center;
 }
 
 #contact-details {
@@ -152,8 +149,16 @@ h3 {
 
 #map {
   text-align: center;
-  padding-bottom: 40px;
-  padding-top: 40px;
+ 
+  
+  
+}
+
+iframe {
+  width: 800px;
+  height: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer > h3 {
@@ -186,7 +191,7 @@ footer > p {
 }
 
 footer {
-  background-color: rgba(171, 222, 231, 0.849);
+  background-color: rgba(171, 222, 231, 0.568);
 }
 
 /*Menu and logo for gallery and signup pages*/
@@ -266,7 +271,7 @@ form {
   height: 390px;
   padding-top: 50px;
   margin: 25px auto;
-  background-color: rgba(171, 222, 231, 0.849);
+  background-color: rgba(171, 222, 231, 0.568);
 }
 
   button[type=submit] {
@@ -290,7 +295,12 @@ form {
     column-count: 2;
   }
  
- 
+  body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
 
 }
 
@@ -300,5 +310,108 @@ form {
   #photo {
     column-count: 1;
   }
+  
+  /*Home page*/
+  
+
+   #menu {
+     padding-right: 80px;
+     padding-top: 5px;
+   }
+
+   h1 {
+    font-size: medium;
+    padding-top: 5px ;
+    padding-bottom: 5px; 
+  }
+
+  h2 {
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+
+   #text-about {
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #reasons-to-join {
+    font-size: medium;
+    padding-top:5px;
+    padding-bottom: 5px;
+  }
+
+ #text-center {
+ font-size: medium;
+  }
+
+  li {
+    font-size: medium;
+    }
+
+#contact-details {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: medium;
+    }
+
+    .contact {
+      font-size: medium;
+    }
+    
+    #address {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: medium;
+    }
+
+    #times{
+      padding-top: 5px;
+      font-size: medium;
+    }
+
+    th, td {
+      font-size: medium;
+    }
+
+
+   #cover-text {
+    width: 350px;
+    height: 500px;
+    background-color: rgba(171, 222, 231, 0.568);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-weight: 520;
+    padding: 5px;
+  }
+   
+  iframe {
+    width: 300px;
+    height: 150px;
+  }
+  
+  .links i {
+    font-size: 100%;
+  }
+  
+  footer > p {
+    padding-bottom: 0px;
+    font-size: smaller;
+  }
+
+    h3 {
+      font-size: small;
+      padding-top: 0;
+    }
+
+ 
+
+  /* !!!!*/
+
+  
+
 }
 
