@@ -263,7 +263,7 @@ input:focus {
 
 form {
   width: 400px;
-  height: 430px;
+  height: 390px;
   padding-top: 50px;
   margin: 25px auto;
   background-color: rgba(171, 222, 231, 0.849);
@@ -281,7 +281,24 @@ form {
   }
 
  
+/*----Media Queries. Copied parts of code. See README.md */
 
+/* For small screens sizes from 800px wide and down */
 
+@media screen and (max-width: 800px) {
+  #photo {
+    column-count: 2;
+  }
+ 
+ 
 
+}
+
+/* For small screens sizes max-width 600px*/
+
+@media(max-width: 600px) {
+  #photo {
+    column-count: 1;
+  }
+}
 
