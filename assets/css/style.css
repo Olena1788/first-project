@@ -56,7 +56,7 @@ h2 {
 
 #cover-text {
   width: 760px;
-  height: 660px;
+  height: 440px;
   background-color: rgba(171, 222, 231, 0.568);
   margin-left: auto;
   margin-right: auto;
@@ -90,14 +90,22 @@ padding-right: 5px;
   font-weight: bolder;
 }
 
-ul {
-  list-style-type: none;
+#meetings {
   text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+ul {
+  text-align: center;
+  list-style-type: square;
 } 
 
 li {
 font-size: 1.2rem;
-
 }
 
 #contact-details {
@@ -149,10 +157,7 @@ h3 {
 
 #map {
   text-align: center;
- 
-  
-  
-}
+ }
 
 iframe {
   width: 800px;
@@ -285,6 +290,18 @@ form {
     font-size: small;
   }
 
+
+  /*Learn more page"*/
+
+  #about {
+    padding: 20px;
+  }
+
+  #activities {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
  
 /*----Media Queries. Copied parts of code. See README.md */
 
@@ -312,11 +329,11 @@ form {
   }
   
   /*Home page*/
-  
 
    #menu {
      padding-right: 80px;
      padding-top: 5px;
+     font-size: small;
    }
 
    h1 {
@@ -407,8 +424,16 @@ form {
       padding-top: 0;
     }
 
- 
+  /* Gallery page*/
 
-  /* !!!!*/
 
+#secondary {
+  font-size: small;
   
+}
+
+#works{
+  font-size: small;
+  text-align: center;
+}
+}
