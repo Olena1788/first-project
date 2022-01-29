@@ -101,7 +101,7 @@ padding-right: 5px;
 
 ul {
   text-align: center;
-  list-style-type: square;
+  list-style-type: none;
 } 
 
 li {
@@ -300,6 +300,10 @@ form {
   #activities {
     text-align: center;
     padding-bottom: 20px;
+    background-color: rgba(171, 222, 231, 0.568);
+    width: 800px;
+    height: 600px;
+   
   }
 
  
@@ -331,7 +335,7 @@ form {
   /*Home page*/
 
    #menu {
-     padding-right: 80px;
+     text-align: center;
      padding-top: 5px;
      font-size: small;
    }
@@ -340,6 +344,7 @@ form {
     font-size: medium;
     padding-top: 5px ;
     padding-bottom: 5px; 
+    text-align: center;
   }
 
   h2 {
