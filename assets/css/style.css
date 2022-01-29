@@ -299,11 +299,13 @@ form {
 
   #activities {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     background-color: rgba(171, 222, 231, 0.568);
     width: 800px;
-    height: 600px;
-   
+    height: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
 
  
