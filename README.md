@@ -20,7 +20,7 @@ Bangor Garden Club will be useful for gardeners who want to join the club in ord
 - I want to be able to see the dates for upcomming meetings of the club members.
 
 **Frequent Visitor Goals**
-I want to be able to give and ask advice on plants care.
+I want to be able to give and ask advice on plants care in blogs.
 
 ## Design 
 The image from https://unsplash.com/ was set as the background for all of the pages.
@@ -55,34 +55,60 @@ The website is comprised of four pages, Home, Gallery and Signup Pages are acces
 
 **Home, Gallery and Signup Pages on the website have:**
 
-- A responsive navigation bar at the top right corner which allows the user to navigate through the site also the same image of flowers is used as a background  to maintain consistency throughout the site.
+__Navigation Bar__
+
+- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation and maintain consistency throughout the site.
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+![Nav Bar](.png) !!!!!!!!!!!!
+
+__Footer__
 
 - A footer which contains social media icon links to facebook, instagram and twitter. Icons were used to keep the footer clean also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
 
+!![Footer](documentation/testing/footer.png) !!!!!!!!
+
 **Home Page**
 
-Club's name is at the top of the page to draw the user's attention. Section containing brief information about the club with its contact details, address and meeting times is below the club's name. The same section contains a clickable link that opens in a new tab if the users want to learn more about the club
+- __The landing page__
+
+Club's name is at the top of the page to draw the user's attention. Section containing brief information about the club with its contact details, address and meeting times is below the club's name. The same section contains a clickable link that opens in a new tab if the users want to learn more about the club.
+
+![Landing Page](documentation/testing/landing-page.jpg)
+
+
+- __Map section__
+
+  This section shows the users the location of the community centre where the classes take place. 
 Map section goes below section with clubs' information. It shows the users the location of the club.
+
+![Map](documentation/testing/map.jpg)
 
 **Gallery page**
 
 Gallery will provide the user with supporting images to see what the club does and its members' accomplishments.
 
+![Gallery](documentation/testing/gallery-page.png)
+
 **Signup page**
 
-This page will allow the user to get signed up to the club by submitting their full name and email address.
+This page will allow the user to get signed up to the club's meetups by submitting their full name and email address.
+
+![Sign up](documentation/testing/signup-page.png)
 
 **Learn more page**
 
-This page will provide more information about the club.
+This page will provide more information about the club and will allow the user to see the benefits of joining the club. This user will see the value of signing up for the club's meetups. 
+
+![Learn more](documentation/testing/learnmore-page.png)
 
 **Features left to implement**
 - Separate page to be added which will comprise of blocks of information about ecology meetings and programs to engage cildren and teens.
 - Separate page for the members to view club members' events and blogs.
-- Exchange/Giveaway page - This page would enable club's members to see the information about plants exchange and giveaways events that take place in garden club. 
+- Exchange/Giveaway page - This page would enable club's members to see the information about plants exchange and giveaways events that take place in the club. 
 
 ## Accessibility
-Descriptive alt attributes were used on images, !!! information for screen readers where there are footer icons used and no text !!!, a sufficient colour contrast was observed throughout the site and menus are accessible by marking the current page as current for screen readers.
+Descriptive alt attributes were used on images, a sufficient colour contrast was observed throughout the site and menus are accessible by marking the current page as current for screen readers.
 
 # Technologies Used
 
@@ -134,124 +160,11 @@ To clone the ..... repository:
 
 ## Testing
 
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
-
-The following issues were raised ......
-
-# W3C Validator
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
-
-# Jigsaw W3 Validator
-Jigsaw W3 Validator was used to validate CSS code.
-
-- Home Page HTML
-- Gallery Page HTML
-- Signup Page HTML
-
-# Solved Bugs
-
-# Known Bugs
+To view all testing documentation please refer to [TESTING.md](TESTING.md)
 
 
 
 
-
-
-
-
-
-
-
-
-# A  Home page  lighthouse: 
-- Does not use passive listeners to improve scrolling performance. Consider marking your touch and wheel event listeners as `passive` to improve your page's scroll performance.
-
-- Serve static assets with an efficient cache policy
-
-- Links do not have a discernible name (media links)
-
--Links to cross-origin destinations are unsafe
-
-Gallery page
-
-- Properly size images
-- Links do not have a discernible name (media links)
-
-Signup page
-
-- Links do not have a discernible name (media links)
-
-## A
-### A
-**A**
-
-
-
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
-- __Navigation Bar__
-
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
-- __The landing page__
-
-  - The landing includes an image of flowers as a background with text overlay to allow the user to see the information about the club. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
-
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
