@@ -250,6 +250,7 @@ footer {
   font-weight: bold;
 }
 
+
 #center {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -333,104 +334,8 @@ form {
   #photo {
     column-count: 1;
   }
-  
   /*Home page*/
-
-   #menu {
-     text-align: center;
-     padding-top: 5px;
-     font-size: small;
-   }
-
-   h1 {
-    font-size: medium;
-    padding-top: 5px ;
-    padding-bottom: 5px; 
-    text-align: center;
-  }
-
-  h2 {
-    font-size: medium;
-    padding-top: 5px;
-    padding-bottom: 5px;
-   }
-
-   #text-about {
-    font-size: medium;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  #reasons-to-join {
-    font-size: medium;
-    padding-top:5px;
-    padding-bottom: 5px;
-  }
-
- #text-center {
- font-size: medium;
-  }
-
-  li {
-    font-size: medium;
-    }
-
-#contact-details {
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-size: medium;
-    }
-
-    .contact {
-      font-size: medium;
-    }
-    
-    #address {
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-size: medium;
-    }
-
-    #times{
-      padding-top: 5px;
-      font-size: medium;
-    }
-
-    th, td {
-      font-size: medium;
-    }
-
-
-   #cover-text {
-    width: 350px;
-    height: 500px;
-    background-color: rgba(171, 222, 231, 0.568);
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 17px;
-    font-weight: 520;
-    padding: 5px;
-  }
-   
-  iframe {
-    width: 300px;
-    height: 150px;
-  }
-  
-  .links i {
-    font-size: 100%;
-  }
-  
-  footer > p {
-    padding-bottom: 0px;
-    font-size: smaller;
-  }
-
-    h3 {
-      font-size: small;
-      padding-top: 0;
-    }
-
+ 
   /* Gallery page*/
 
 
