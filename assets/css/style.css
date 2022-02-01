@@ -149,7 +149,6 @@ table {
   margin-right: auto;
 }
 
-
 h3 {
   font-size: 1.1rem; 
   letter-spacing: 2px;
@@ -199,7 +198,7 @@ footer {
   background-color: rgba(171, 222, 231, 0.568);
 }
 
-/*Menu and logo for gallery and signup pages*/
+/*Menu and name of the club for gallery, signup and learn more pages*/
 
 #secondary {
   float: left;
@@ -208,7 +207,6 @@ footer {
   padding-top: 20px;
   padding-left: 20px;
   font-family: Libre Franklin,Arial,Helvetica,sans-serif;
-  
 }
 
 #secondary, #menu {
@@ -240,8 +238,6 @@ footer {
   margin: 10px auto;
 }
 
-
-
 /*Sign Up page*/
 
 .block {
@@ -249,7 +245,6 @@ footer {
   padding: 10px;
   font-weight: bold;
 }
-
 
 #center {
   padding-top: 100px;
@@ -291,11 +286,10 @@ form {
     font-size: small;
   }
 
-
   /*Learn more page"*/
 
-  #about {
-    padding: 20px;
+  #headernext {
+  padding-bottom: 100px;
   }
 
   #activities {
@@ -306,7 +300,6 @@ form {
     height: 525px;
     margin-left: auto;
     margin-right: auto;
-    
   }
 
  
@@ -331,21 +324,53 @@ form {
 /* For small screens sizes max-width 600px*/
 
 @media(max-width: 600px) {
-  #photo {
-    column-count: 1;
+  
+   #menu a {
+  font-size: medium;
   }
+
   /*Home page*/
+  
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  #cover-text {
+    width: 80%;
+    height: 60%;
+  }
+
+  iframe {
+    width: 90%;
+    height: 10%;
+  }
  
   /* Gallery page*/
 
+  #secondary {
+    padding-top: 1px;
+  }
 
-#secondary {
-  font-size: small;
-  
-}
+  #works {
+    padding-top: 1px;
+  }
 
-#works{
-  font-size: small;
-  text-align: center;
-}
+  #photo {
+    column-count: 1;
+  }
+
+  /* Signup page*/
+   form {
+     width: 80%;
+   }
+
+   #center {
+     padding-top: 2%;
+   }
 }
