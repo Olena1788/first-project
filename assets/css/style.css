@@ -373,4 +373,20 @@ form {
    #center {
      padding-top: 2%;
    }
+
+   /* Learnmore page*/
+
+   #headernext {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+   }
+
+   #activities {
+     width: 80%;
+     height: 60%;
+     font-size: small;
+   }
+
+  
 }
