@@ -311,14 +311,33 @@ form {
   #photo {
     column-count: 2;
   }
+
+  header {
+    display: flex;
+  flex-direction: row;
+  }
  
-  body {
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  #headernext {
+    padding-bottom: 30px;
   }
 
+  
+  
+  
+  
+  #cover-text {
+    width: 80%;
+    height: 60%;
+  }
+
+  iframe {
+    width: 85%;
+    height: 10%;
+  }
+
+  #activities {
+    width: 85%;
+  }
 }
 
 /* For small screens sizes max-width 600px*/
@@ -338,7 +357,12 @@ form {
 
   h1 {
     padding-top: 20px;
-    padding-bottom: 0;
+    padding-bottom: 5px;
+  }
+
+  h2 {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   #cover-text {
@@ -355,6 +379,7 @@ form {
 
   #secondary {
     padding-top: 1px;
+    padding-bottom: 35px;
   }
 
   #works {
@@ -383,10 +408,8 @@ form {
    }
 
    #activities {
-     width: 80%;
+     width: 90%;
      height: 60%;
      font-size: small;
-   }
-
-  
+   } 
 }
