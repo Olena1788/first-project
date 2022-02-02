@@ -312,19 +312,14 @@ form {
     column-count: 2;
   }
 
-  header {
-    display: flex;
-  flex-direction: row;
+  #works {
+    padding: 80px;
   }
- 
+
   #headernext {
     padding-bottom: 30px;
   }
 
-  
-  
-  
-  
   #cover-text {
     width: 80%;
     height: 60%;
@@ -338,6 +333,8 @@ form {
   #activities {
     width: 85%;
   }
+
+  
 }
 
 /* For small screens sizes max-width 600px*/
