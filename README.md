@@ -51,22 +51,22 @@ learnmore.html
 ![Index Wireframe](documentation/wireframes/learnmore-page.png)
 
 ## Features
-The website is comprised of four pages, Home, Gallery and Signup Pages are accessible from the navigation menu (home page, gallery page and signup page). Signup page is also accessible from the clickable link that is present in Learnmore page for the user's convenience.
+The website is comprised of four pages, all of them are accessible from the navigation menu. Signup page is also accessible from the clickable link that is present in Learnmore page for the user's convenience.
 
-**Home, Gallery and Signup Pages on the website have:**
+**All pages on the website have:**
 
 __Navigation Bar__
 
 - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation and maintain consistency throughout the site.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](.png) !!!!!!!!!!!!
+![Nav Bar](documentation/testing/nav-bar.png) 
 
 __Footer__
 
 - A footer which contains social media icon links to facebook, instagram and twitter. Icons were used to keep the footer clean also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
 
-!![Footer](documentation/testing/footer.png) !!!!!!!!
+![Footer](documentation/testing/footer.png) 
 
 **Home Page**
 
@@ -74,7 +74,7 @@ __Footer__
 
 Club's name is at the top of the page to draw the user's attention. Section containing brief information about the club with its contact details, address and meeting times is below the club's name. The same section contains a clickable link that opens in a new tab if the users want to learn more about the club.
 
-![Landing Page](documentation/testing/landing-page.jpg)
+![Landing Page](documentation/testing/landing-page.png)
 
 
 - __Map section__
@@ -82,7 +82,7 @@ Club's name is at the top of the page to draw the user's attention. Section cont
   This section shows the users the location of the community centre where the classes take place. 
 Map section goes below section with clubs' information. It shows the users the location of the club.
 
-![Map](documentation/testing/map.jpg)
+![Map](documentation/testing/map.png)
 
 **Gallery page**
 
@@ -108,7 +108,7 @@ This page will provide more information about the club and will allow the user t
 - Exchange/Giveaway page - This page would enable club's members to see the information about plants exchange and giveaways events that take place in the club. 
 
 ## Accessibility
-Descriptive alt attributes were used on images, a sufficient colour contrast was observed throughout the site and menus are accessible by marking the current page as current for screen readers.
+Descriptive alt attributes were used on images and social media links, a sufficient colour contrast was observed throughout the site and menus are accessible by marking the current page as current for screen readers.
 
 # Technologies Used
 
@@ -132,103 +132,102 @@ The following technologies were used to create and test the website:
 
 # Deployment & Local Development
 ## Deployment
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
-
-1. Log in (or sign up) to Github.
-2. Find the repository for this project.
-3. Click on the Settings link.
-4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
-
-## Local Development
-**How to Fork**
-To fork the .... repository:
-
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, .....
-3. Click the Fork button in the top right corner.
-
-**How to Clone**
-To clone the ..... repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
-## Testing
-
-To view all testing documentation please refer to [TESTING.md](TESTING.md)
-
-
-
-
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found [here](https://olena1788.github.io/first-project/)
 
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Olena1788/first-project/.git`  
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Olena1788/first-project/)
+
+## Testing
+
+To view all testing documentation please refer to [TESTING.md](TESTING.md)
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The content for the website was invented.
+
+- The icons in the navigation bar and the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- The favicon in the browser was taken from [Favicon](https://favicon.io/favicon-generator/)
+
+- Part of the code borrowed from [w3schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
+
+```css
+
+/* For small screens sizes from 600px wide and down */
+@media screen and (max-width: 600px){
+    .flex-container {
+    flex-direction: column;
+  }
+}
+```
+
+- Part of the code was copied from Love Running to style images: 
+
+```css
+- Media query was copied from Love Running:
+
+```css
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #img {
+        column-count: 2;
+    }
+}
+```
+Copied from Code Institute for the Contact page:
+
+```html
+
+ <form action="https://formdump.codeinstitute.net" method="POST">
+   ```
+
+
+- Love Running README boilerplate was used for README.md
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photo used as a background on all of the pages is taken from [Unsplash](https://unsplash.com/photos/0lL6Sox7n1Y).
+
+- The images used for the Gallery page are taken from [Unsplash](https://unsplash.com/)
+
+### Acknowledgements
+
+I would like to acknowledge the following people in helping me to create the website:
+
+1. Daisy McGirr, my mentor, for guidance and help throughout the project.
+2. All the people in slack who took time to reply to the questions I had.
+3. Helen Denning, a student at Code Institute, for guidance and help throughout the project.
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+
+
+
+
+
+ 
+
+
+
