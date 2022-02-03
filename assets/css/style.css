@@ -309,15 +309,19 @@ form {
 
 @media screen and (max-width: 800px) {
   #photo {
-    column-count: 2;
+    column-count: 3;
+  }
+
+  h1 {
+    padding-top: 20%;
   }
 
   #works {
-    padding: 80px;
+    padding-top: 15%;
   }
-
+  
   #headernext {
-    padding-bottom: 30px;
+    padding-bottom: 15%;
   }
 
   #cover-text {
