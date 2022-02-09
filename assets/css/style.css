@@ -1,27 +1,29 @@
 /* Generic Styles */
-*{
-    margin:0;
-    padding:0;
-    border:0;
-  }
-  
-   body {
-    background: url("../img/three.jpg"); 
-    background-size: cover;
-    font-family: Libre Franklin,Arial,Helvetica,sans-serif;
-    color: #356c8b;  
-  }
-  /*---- Nav menu for home, gallery and signup pages----*/
-  #menu {
-    
-    float: right;
-    letter-spacing: 2px;
-    font-size: 1.1rem;
-    padding-top: 20px;
-    padding-right: 20px;
-    font-family: Libre Franklin,Arial,Helvetica,sans-serif; 
-    font-weight: 500;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: url("../img/three.jpg");
+  background-size: cover;
+  font-family: Libre Franklin, Arial, Helvetica, sans-serif;
+  color: #356c8b;
+}
+
+/*---- Nav menu for all pages----*/
+
+#menu {
+
+  float: right;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-family: Libre Franklin, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
 
 #menu a {
   text-decoration: none;
@@ -30,28 +32,30 @@
 }
 
 #menu a:hover {
-			text-decoration: none;
-      border-bottom: 1.5px solid;
-		}
+  text-decoration: none;
+  border-bottom: 1.5px solid;
+}
 
 .active {
   border-bottom: 1.5px solid;
 }
-/*---- Home ----*/
+
+/*---- Home page ----*/
+
 h1 {
   text-align: center;
   font-size: x-large;
   text-transform: uppercase;
-  padding-top: 10% ; 
+  padding-top: 10%;
   letter-spacing: 2px;
 }
 
 h2 {
- font-size: large;
- padding-top: 20px;
- padding-bottom: 20px;
- font-weight: 400;
- text-align: center;
+  font-size: large;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 
 #cover-text {
@@ -67,7 +71,7 @@ h2 {
 
 #text-about {
   text-align: center;
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
   letter-spacing: 2px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -75,10 +79,69 @@ h2 {
 }
 
 #text-center {
-text-align: center;
-font-size: 1.2rem;
-padding-left: 5px;
-padding-right: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#contact-details {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+/*---- Footer for all pages ----*/
+
+footer>h3 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: medium;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.links {
+  text-align: center;
+}
+
+.links i {
+  font-size: 150%;
+  margin: 1%;
+  color: #777777;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer>p {
+  text-align: center;
+  font-size: small;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: rgba(171, 222, 231, 0.568);
+}
+
+/*---- Learnmore page ----*/
+
+#headernext {
+  padding-bottom: 100px;
+}
+
+#activities {
+  text-align: center;
+  padding-bottom: 25px;
+  background-color: rgba(171, 222, 231, 0.568);
+  width: 800px;
+  height: 525px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #reasons-to-join {
@@ -102,100 +165,10 @@ padding-right: 5px;
 ul {
   text-align: center;
   list-style-type: none;
-} 
+}
 
 li {
-font-size: 1.2rem;
-}
-
-#contact-details {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 1.1rem;
-  letter-spacing: 2px;
-  font-weight: bolder;
-}
-
-.contact {
-  text-align: center;
-  font-size: 1.1rem;
-}
-
-#address {
-  padding-top: 20px;
-  padding-bottom: 5px;
-  text-align: center;
-  font-size: 1.1rem;
-  letter-spacing: 2px;
-  font-weight: bolder;
-}
-
-#times{
-  padding-top: 20px;
-  padding-bottom: 5px;
-  text-align: center;
-  font-size: 1.1rem;
-  letter-spacing: 2px;
-  font-weight: bolder;
-}
-
-#center {
-  text-align: center;
-}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h3 {
-  font-size: 1.1rem; 
-  letter-spacing: 2px;
-}
-
-#map {
-  text-align: center;
- }
-
-iframe {
-  width: 800px;
-  height: 400px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-footer > h3 {
-  text-align: center;
-  padding-top: 10px;
-  font-size: medium;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
-
-.links {
-  text-align: center;
-}
-
-.links i {
-  font-size: 150%;
-  margin: 1%;
-  color: #777777;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-footer > p {
-  text-align: center;
-  font-size: small;
-  letter-spacing: 2px;
-  padding-top: 5px; 
-  padding-bottom: 10px;
-}
-
-footer {
-  background-color: rgba(171, 222, 231, 0.568);
+  font-size: 1.2rem;
 }
 
 /*Menu and name of the club for gallery, signup and learn more pages*/
@@ -206,10 +179,11 @@ footer {
   font-size: 1.1rem;
   padding-top: 20px;
   padding-left: 20px;
-  font-family: Libre Franklin,Arial,Helvetica,sans-serif;
+  font-family: Libre Franklin, Arial, Helvetica, sans-serif;
 }
 
-#secondary, #menu {
+#secondary,
+#menu {
   line-height: 75px;
 }
 
@@ -222,7 +196,7 @@ footer {
   text-align: center;
   font-size: 1.1rem;
   font-weight: bolder;
-  font-family: Libre Franklin,Arial,Helvetica,sans-serif;
+  font-family: Libre Franklin, Arial, Helvetica, sans-serif;
 }
 
 #photo {
@@ -247,18 +221,17 @@ footer {
 }
 
 #center {
-  padding-top: 150px;
+  padding-top: 290px;
   padding-bottom: 100px;
 }
 
 fieldset {
-  
   text-align: center;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 input:focus {
-  background-color: rgba(135, 222, 228, 0.945); 
+  background-color: rgba(135, 222, 228, 0.945);
   outline: none;
 }
 
@@ -275,39 +248,25 @@ form {
   background-color: rgba(171, 222, 231, 0.568);
 }
 
-  button[type=submit] {
-    color: black;
-    padding: 10px;
-    background-color: rgba(135, 222, 228, 0.945);
-  }
+button[type=submit] {
+  color: black;
+  padding: 10px;
+  background-color: rgba(135, 222, 228, 0.945);
+}
 
-  label {
-    margin: 10px 15px 5px 0;
-    font-size: small;
-  }
+label {
+  margin: 10px 15px 5px 0;
+  font-size: small;
+}
 
-  /*Learn more page"*/
-
-  #headernext {
-  padding-bottom: 100px;
-  }
-
-  #activities {
-    text-align: center;
-    padding-bottom: 25px;
-    background-color: rgba(171, 222, 231, 0.568);
-    width: 800px;
-    height: 525px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
- 
 /*----Media Queries. Copied parts of code. See README.md */
 
 /* For small screens sizes from 800px wide and down */
 
 @media screen and (max-width: 800px) {
+
+  /*---- Gallery page ----*/
+
   #photo {
     column-count: 3;
   }
@@ -319,18 +278,18 @@ form {
   #works {
     padding-top: 15%;
   }
-  
+
+  /*---- Learn more page ----*/
+
   #headernext {
     padding-bottom: 15%;
   }
 
-  #bottom-next {
-    padding-bottom: 20%;
+  #activities {
+    width: 85%;
   }
 
-  #center {
-    padding-top: 300px;
-  }
+  /*---- Home page ----*/
 
   #cover-text {
     width: 80%;
@@ -341,24 +300,18 @@ form {
     width: 85%;
     height: 10%;
   }
-
-  #activities {
-    width: 85%;
-  }
-
- 
 }
 
 /* For small screens sizes max-width 600px*/
 
 @media(max-width: 600px) {
-  
-   #menu a {
-  font-size: medium;
+
+  #menu a {
+    font-size: medium;
   }
 
   /*Home page*/
-  
+
   header {
     display: flex;
     flex-direction: column;
@@ -383,7 +336,7 @@ form {
     width: 90%;
     height: 10%;
   }
- 
+
   /* Gallery page*/
 
   #secondary {
@@ -400,25 +353,26 @@ form {
   }
 
   /* Signup page*/
-   form {
-     width: 80%;
-   }
 
-   #center {
-     padding-top: 2%;
-   }
+  form {
+    width: 80%;
+  }
 
-   /* Learnmore page*/
+  #center {
+    padding-top: 2%;
+  }
 
-   #headernext {
+  /* Learnmore page*/
+
+  #headernext {
     display: flex;
     flex-direction: column;
     padding-bottom: 1%;
-   }
+  }
 
-   #activities {
-     width: 90%;
-     height: 60%;
-     font-size: small;
-   } 
+  #activities {
+    width: 90%;
+    height: 60%;
+    font-size: small;
+  }
 }
