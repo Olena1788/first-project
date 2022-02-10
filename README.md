@@ -3,6 +3,9 @@
 Bangor Garden Club is a site that aims to promote environmental causes and motivate people to learn from experienced gardeners as well as share own knowledge, ideas and know-how with new generations of gardeners. The site will be targeted towards people who love gardening and look for a way to socialise.
 Bangor Garden Club will be useful for gardeners who want to join the club in order to participate in projects, share their ideas and knowledge with others.
 
+![Responsive Mockup](documentation/testing/ami-responsive.png) 
+[View Bangor Garden Club](https://olena1788.github.io/first-project/)
+
 # User Stories
 
 **Client Goals**
@@ -30,10 +33,9 @@ The cover-text uses rgba(171, 222, 231, 0.568)
 Font-family " Libre Franklin, Arial, Helvetica" was used throughout the website.
 
 ## Imagery
-The images were used from https://unsplash.com/. 
+The images were used from https://unsplash.com/ 
 
 ## Wireframes
-Wireframes were created for mobile, tablet and desktop.
 
 index.html
 ![Index Wireframe](documentation/wireframes/home-page.png)
@@ -57,14 +59,14 @@ The website is comprised of four pages, all of them are accessible from the navi
 
 __Navigation Bar__
 
-- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation and maintain consistency throughout the site.
+- Featured on all four pages, the full responsive navigation bar includes links to the Home page, Gallery, Learnmore and Sign Up page and is identical in each page to allow for easy navigation and maintain consistency throughout the site.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](documentation/testing/nav-bar.png) 
 
 __Footer__
 
-- A footer which contains social media icon links to facebook, instagram and twitter. Icons were used to keep the footer clean also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
+- A footer which contains social media icon links to facebook, instagram and twitter icons were used to keep the footer clean also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
 
 ![Footer](documentation/testing/footer.png) 
 
@@ -76,11 +78,9 @@ Club's name is at the top of the page to draw the user's attention. Section cont
 
 ![Landing Page](documentation/testing/landing-page.png)
 
-
 - __Map section__
 
-  This section shows the users the location of the community centre where the classes take place. 
-Map section goes below section with clubs' information. It shows the users the location of the club.
+Map section goes below section with the clubs' information. It shows the users the location of the club.
 
 ![Map](documentation/testing/map.png)
 
@@ -98,7 +98,7 @@ This page will allow the user to get signed up to the club's meetups by submitti
 
 **Learn more page**
 
-This page will provide more information about the club and will allow the user to see the benefits of joining the club. This user will see the value of signing up for the club's meetups. 
+This page will provide more information about the club and will allow the user to see the benefits of joining the club. The user will see the value of signing up for the club's meetups. 
 
 ![Learn more](documentation/testing/learnmore-page.png)
 
@@ -160,7 +160,7 @@ To view all testing documentation please refer to [TESTING.md](TESTING.md)
 
 - The content for the website was invented.
 
-- The icons in the navigation bar and the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 - The favicon in the browser was taken from [Favicon](https://favicon.io/favicon-generator/)
 
@@ -178,7 +178,6 @@ To view all testing documentation please refer to [TESTING.md](TESTING.md)
 
 - Part of the code was copied from Love Running to style images: 
 
-```css
 - Media query was copied from Love Running:
 
 ```css
@@ -196,7 +195,6 @@ Copied from Code Institute for the Contact page:
 
  <form action="https://formdump.codeinstitute.net" method="POST">
    ```
-
 
 - Love Running README boilerplate was used for README.md
 
