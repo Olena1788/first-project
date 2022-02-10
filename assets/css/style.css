@@ -11,7 +11,7 @@
     font-family: Libre Franklin,Arial,Helvetica,sans-serif;
     color: #356c8b;  
   }
-  /*---- Nav menu for home, gallery and signup pages----*/
+  /*---- Nav menu for all pages----*/
   #menu {
     
     float: right;
@@ -164,6 +164,8 @@ iframe {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/*---- Footer for all pages ----*/
 
 footer > h3 {
   text-align: center;
@@ -344,9 +346,7 @@ form {
 
   #activities {
     width: 85%;
-  }
-
- 
+  } 
 }
 
 /* For small screens sizes max-width 600px*/
