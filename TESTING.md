@@ -20,8 +20,8 @@ Sign up Form.
 2. I tried to submit the form with only an email address - the form directed the user to fill in the name field. I filled out the name and email fields and tried to submit the form. The form then directs the user to fill out the surname field. I filled in the name, email and surname field and was able to submit the form.
 3. I tried to submit the form with only the surname - the form directed the user to fill in the name field. I filled out the name and surname fields and tried to submit the form. The form then directed the user to fill out the email field. I filled in the name, email and surname field and was able to submit the form.
 
-5. I selected the checkbox "Remember me" without filling any fields and tried to submit the form. The form directs me to fill in the name field. I filled in the name field and the form directs the user to fill in the surname field. I filled in the name and surname fields and tried to submit the form. The form directs the user to fill in the email field. Once I filled in the name, surname and email fields with a checkbox selected I was then able to submit the form.
-6. I tried submitting the form without any information filled in. The form directs the user to fill in the name field. It then goes on to ask the user to complete the surname and email fields if they are not filled out. The form can then be submitted.
+5. I selected the checkbox "Remember me" without filling any fields and tried to submit the form. The form directed me to fill in the name field. I filled in the name field and the form directed me to fill in the surname field. I filled in the name and surname fields and tried to submit the form. The form directed the user to fill in the email field. Once I filled in the name, surname and email fields with a checkbox selected I was then able to submit the form.
+6. I tried submitting the form without any information filled in. The form directed me to fill in the name field. It then went on to ask me to complete the surname and email fields if they are not filled out. The form can then be submitted.
 
 - - -
 
@@ -34,7 +34,7 @@ Also the following tests were conducted to determine the site works well.
 
 The [W3C validator](https://validator.w3.org/) was used to validate the HTML on all four pages of the website. No errors or warnings were found on html pages.
 
-The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. All the  errors on CSS validation were related to [Font awesome](https://fontawesome.com/v6.0/icons).
+The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. No errors were found on css page.
 
 - [Home Page HTML](documentation/testing/home-page-validation.png)
 - [Gallery Page HTML](documentation/testing/gallery-page-validation.png)
@@ -58,19 +58,19 @@ The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS c
 ![Signup](documentation/testing/form-desktop-lighthouse.png)
 ![Learnmore](documentation/testing/learnmore-desktop-lighthouse.png)
 
-## Fixed Bugs (Lighthouse report)
+## Fixed Bugs (Lighthouse report suggestions):
 
-- Links do not have a discernible name (social meadia links).
-- Links to cross-origin destinations are unsafe.
+- Links do not have a discernible name. I used the aria-label attribute to eliminate the error.
+- Links to cross-origin destinations are unsafe. I added rel="noopener" to avoid this issue.
 
 
 
-## Unfixed Bugs
+## Unfixed Bugs (Lighthouse report suggestions):
 
 - Does not use passive listeners to improve scrolling performance.
 - Serve static assets with an efficient cache policy.
-- Properly size images (Images in gallery page have been compressed several times)
-Lighthouse report on performance for all of the pages are not consistent. Sometimes Performance results show very low scores. 
+- Properly size images (Images in gallery page have been compressed several times which slightly improved performance). Lighthouse report on performance for all of the pages is not consistent. Sometimes Performance results show very low scores.
+- Serve images in next-gen formats (Converted images to WebP at one point but performance did not improve and on the contrary consistently showed lower scores than before so I had them back to png format) 
 
 
 ## Responsiveness
