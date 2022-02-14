@@ -61,7 +61,7 @@ __Navigation Bar__
 
 __Footer__
 
-- The footer contains social media icon links to Facebook, Instagram and Twitter icons which were used to keep the footer clean, they are also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
+- The footer contains social media icon links to Facebook, Instagram and Twitter icons which were used to keep the footer clean, they are also universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
 
 ![Footer](documentation/testing/footer.png) 
 
