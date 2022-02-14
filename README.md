@@ -1,6 +1,6 @@
 # Bangor Garden Club
 
-Bangor Garden Club is a site which aims to promote environmental causes and motivate people to learn from experienced gardeners as well as share their knowledge, ideas and know-how with new generations of gardeners. The site will be targeted towards people who love gardening and look for ways to socialise.
+Bangor Garden Club is a site that aims to promote environmental causes and motivate people to learn from experienced gardeners as well as share their knowledge, ideas and know-how with new generations of gardeners. The site will be targeted towards people who love gardening and look for ways to socialise.
 Bangor Garden Club will be useful for gardeners who want to join the club in order to participate in projects, share their ideas and knowledge with others.
 
 ![Responsive Mockup](documentation/testing/ami-responsive.png) 
@@ -48,7 +48,7 @@ learnmore.html
 ![Index Wireframe](documentation/wireframes/learnmore-page.png)
 
 ## Features
-The website is comprised of four pages, all of which are accessible from the navigation menu. Signup page is also accessible from the clickable link which is present in Learn more page for the user's convenience.
+The website is comprised of four pages, all of them are accessible from the navigation menu. Signup page is also accessible from the clickable link which is present in Learn more page for the user's convenience.
 
 **All pages on the website have:**
 
@@ -61,7 +61,7 @@ __Navigation Bar__
 
 __Footer__
 
-- The footer contains social media icon links to Facebook, Instagram and Twitter icons were used to keep the footer clean, they are also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
+- The footer contains social media icon links to Facebook, Instagram and Twitter icons which were used to keep the footer clean, they are also they are universally recognisable. The links will open to a new tab to allow easy navigation for the user. The footer is useful to the user as it is a form of encouragement for them to keep connected via social media.
 
 ![Footer](documentation/testing/footer.png) 
 
@@ -69,7 +69,7 @@ __Footer__
 
 - __The landing page__
 
-The club's name is at the top of the page to draw the user's attention. Section containing brief information about the club with its contact details, address and meeting times is below the club's name. The same section contains a clickable link which opens in a new tab if the user want to find out more about the club.
+The club's name is at the top of the page to draw the user's attention. Section containing brief information about the club with its contact details, address and meeting times is below the club's name. The same section contains a clickable link which opens in a new tab if the user wants to find out more about the club.
 
 ![Landing Page](documentation/testing/landing-page.png)
 
